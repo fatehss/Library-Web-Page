@@ -1,3 +1,13 @@
+
+const addBook = document.getElementById('add-book');
+
+function fun (){console.log('hello world!')};
+addBook.addEventListener("click", fun);
+
+
+
+
+
 function Book(title, author, pages, read){
     this.title = title;
     this.author = author;
@@ -11,7 +21,8 @@ function Book(title, author, pages, read){
     }
 }
 
-theHobbit = new Book("The Hobbit", "J.R.R. Tolkien", "295", true);
+let mylibrary = [];
 
-console.log(theHobbit.info());
+
+
 
